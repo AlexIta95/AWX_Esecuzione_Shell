@@ -1,4 +1,5 @@
--hosts: all
- tasks:
+- hosts: all
+  become: yes
+  tasks:
  - name: echo the date
    shell: echo "'date'"
