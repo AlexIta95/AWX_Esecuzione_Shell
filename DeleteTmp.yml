@@ -3,6 +3,6 @@
   tasks:
   - name: Svuotamento cartella tmp
     file: 
-      state: absent
+      state: directory
       path: /tmpp 
   
