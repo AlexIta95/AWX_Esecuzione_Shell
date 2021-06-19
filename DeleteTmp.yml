@@ -2,5 +2,7 @@
   become: yes
   tasks:
   - name: Svuotamento cartella tmp
-     file: path=/tmpp state=absent
+    file: 
+      state: absent
+      path: /tmpp state=absent
   
