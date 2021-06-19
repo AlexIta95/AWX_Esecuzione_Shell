@@ -4,5 +4,5 @@
   - name: Svuotamento cartella tmp
     file: 
       state: absent
-      path: /tmpp state=absent
+      path: /tmpp 
   
